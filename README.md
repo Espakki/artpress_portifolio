@@ -1,6 +1,7 @@
 # 🚀 ArtPress Creative Portfolio
 
-![ArtPress Hero](file:///C:/Users/rodol/.gemini/antigravity/brain/7a9ecc34-300e-46a7-bd20-cf7ea7e19b49/hero_section_full_1774657677144.png)
+<img width="1916" height="882" alt="image" src="https://github.com/user-attachments/assets/7bff4c2a-735d-457c-a5d7-c673df81f9d8" />
+
 
 O **ArtPress** é um portfólio moderno e de alto impacto para agências de comunicação visual e design. Este projeto foi totalmente reconstruído em um design "dark-mode" premium, utilizando tecnologias de ponta para animação e interatividade.
 
@@ -18,19 +19,22 @@ O **ArtPress** é um portfólio moderno e de alto impacto para agências de comu
 
 ### 🎭 Preloader & Identidade Visual
 Animação de morfismo que estabelece a autoridade da marca logo no primeiro contato.
-![Preloader Morph](file:///C:/Users/rodol/.gemini/antigravity/brain/7a9ecc34-300e-46a7-bd20-cf7ea7e19b49/preloader_frame_1774657670959.png)
+<img width="1888" height="891" alt="image" src="https://github.com/user-attachments/assets/e79df663-6da5-4cc1-8006-ed6ab87923c1" />
+
 
 ### 📦 Bento Grid de Serviços
 Layout modular assimétrico com imagens de alta qualidade e textos centralizados.
-![Services Bento Grid](file:///C:/Users/rodol/.gemini/antigravity/brain/7a9ecc34-300e-46a7-bd20-cf7ea7e19b49/services_bento_grid_1774657692794.png)
+<img width="1879" height="791" alt="image" src="https://github.com/user-attachments/assets/8ebdb8d7-c67f-4044-b155-ea5ec7e5256e" />
 
 ### 📊 ArtPress em Números
 Sessão de autoridade com estatísticas e design de vidro (glassmorphism).
-![Stats Section](file:///C:/Users/rodol/.gemini/antigravity/brain/7a9ecc34-300e-46a7-bd20-cf7ea7e19b49/artpress_stats_section_1774657742147.png)
+<img width="1890" height="878" alt="image" src="https://github.com/user-attachments/assets/7423df64-ee8c-4702-83d6-ebf176c399ee" />
+
 
 ### 🗣️ Prova Social (Depoimentos)
 Feedback de clientes com alinhamento perfeitamente simétrico e sistema de estrelas.
-![Testimonials](file:///C:/Users/rodol/.gemini/antigravity/brain/7a9ecc34-300e-46a7-bd20-cf7ea7e19b49/testimonials_section_1774657729247.png)
+<img width="1867" height="707" alt="image" src="https://github.com/user-attachments/assets/44c7bddb-67a4-444f-8b47-91d4e060335f" />
+
 
 ## 👥 Créditos e Equipe
 
@@ -38,7 +42,8 @@ Este projeto foi modernizado e finalizado com excelência pela equipe:
 
 ### 🚀 **GAROTOS DE PROGRAMA** &copy; 2026
 
-![Team Footer](file:///C:/Users/rodol/.gemini/antigravity/brain/7a9ecc34-300e-46a7-bd20-cf7ea7e19b49/footer_team_avatars_1774657756716.png)
+<img width="1863" height="549" alt="image" src="https://github.com/user-attachments/assets/78996ebb-e298-4456-8f33-8cd590c548bb" />
+
 
 | Membro | Perfil GitHub |
 | :--- | :--- |
@@ -46,6 +51,3 @@ Este projeto foi modernizado e finalizado com excelência pela equipe:
 | **camscostney** | [github.com/camscostney](https://github.com/camscostney) |
 | **KaiqueCh** | [github.com/KaiqueCh](https://github.com/KaiqueCh) |
 | **Maria Ramos** | [github.com/maria-ramos652](https://github.com/maria-ramos652) |
-
----
-*Transformando impressões em impacto visual real.*
