@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="pt-BR"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Manrope:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "tertiary-container": "#059eff",
+              "outline-variant": "#5a4136",
+              "surface-bright": "#393939",
+              "on-error": "#690005",
+              "secondary": "#fff3d2",
+              "tertiary": "#9ccaff",
+              "on-surface-variant": "#e2bfb0",
+              "surface": "#131313",
+              "primary-fixed-dim": "#ffb693",
+              "primary-fixed": "#ffdbcc",
+              "on-primary-container": "#572000",
+              "on-secondary": "#3a3000",
+              "surface-container-lowest": "#0e0e0e",
+              "on-primary-fixed": "#351000",
+              "surface-container-high": "#2a2a2a",
+              "on-primary-fixed-variant": "#7a3000",
+              "error": "#ffb4ab",
+              "inverse-primary": "#a04100",
+              "tertiary-fixed-dim": "#9ccaff",
+              "secondary-fixed-dim": "#e9c400",
+              "on-background": "#e5e2e1",
+              "on-secondary-fixed": "#221b00",
+              "surface-dim": "#131313",
+              "outline": "#a98a7d",
+              "primary-container": "#ff6b00",
+              "inverse-on-surface": "#313030",
+              "surface-container-highest": "#353534",
+              "surface-container-low": "#1c1b1b",
+              "inverse-surface": "#e5e2e1",
+              "background": "#131313",
+              "on-tertiary": "#003257",
+              "on-primary": "#561f00",
+              "on-error-container": "#ffdad6",
+              "on-secondary-fixed-variant": "#544600",
+              "surface-variant": "#353534",
+              "surface-tint": "#ffb693",
+              "on-secondary-container": "#6f5c00",
+              "secondary-container": "#fdd400",
+              "primary": "#ffb693",
+              "secondary-fixed": "#ffe170",
+              "surface-container": "#201f1f",
+              "on-surface": "#e5e2e1",
+              "error-container": "#93000a",
+              "on-tertiary-fixed-variant": "#00497b",
+              "tertiary-fixed": "#d0e4ff",
+              "on-tertiary-container": "#003357",
+              "on-tertiary-fixed": "#001d35"
+            },
+            fontFamily: {
+              "headline": ["Space Grotesk"],
+              "body": ["Manrope"],
+              "label": ["Manrope"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .ink-gradient {
+        background: linear-gradient(135deg, #FFB693 0%, #FF6B00 100%);
+      }
+      .glass-nav {
+        background: rgba(19, 19, 19, 0.6);
+        backdrop-filter: blur(24px);
+      }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-[#131313]/60 backdrop-blur-xl shadow-2xl shadow-black/50">
+<div class="flex justify-between items-center px-8 py-6 max-w-none mx-auto bg-gradient-to-b from-[#1C1B1B] to-transparent">
+<div class="text-2xl font-bold tracking-tighter text-[#FFB693] font-['Space_Grotesk'] uppercase">
+                THE KINETIC PRESS
+            </div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="text-[#E2BFB0] hover:text-[#FFB693] transition-colors font-['Space_Grotesk'] uppercase tracking-tighter" href="#">Home</a>
+<a class="text-[#FFB693] border-b-2 border-[#FF6B00] pb-1 font-['Space_Grotesk'] uppercase tracking-tighter" href="#">Portfolio</a>
+<a class="text-[#E2BFB0] hover:text-[#FFB693] transition-colors font-['Space_Grotesk'] uppercase tracking-tighter" href="#">Quote/Order</a>
+<a class="text-[#E2BFB0] hover:text-[#FFB693] transition-colors font-['Space_Grotesk'] uppercase tracking-tighter" href="#">Contact</a>
+</div>
+<button class="ink-gradient text-on-primary-container px-6 py-2 font-bold font-['Space_Grotesk'] uppercase tracking-wider rounded-md transition-transform active:scale-95 shadow-lg shadow-primary-container/20">
+                WhatsApp
+            </button>
+</div>
+</nav>
+<main class="pt-32 pb-24 min-h-screen px-6 md:px-12 max-w-7xl mx-auto">
+<!-- Hero Header -->
+<header class="mb-16 relative">
+<div class="absolute -top-12 -left-8 text-[12rem] font-headline font-black text-surface-container-low opacity-20 pointer-events-none select-none uppercase tracking-tighter leading-none">
+                KINETIC
+            </div>
+<div class="relative z-10">
+<h1 class="text-6xl md:text-8xl font-headline font-bold text-primary tracking-tighter leading-[0.9] mb-4">
+                    Nosso Portfólio
+                </h1>
+<p class="text-on-surface-variant max-w-xl text-lg font-light leading-relaxed">
+                    Precisão industrial e acabamento premium. Explore nossos projetos de impressão de alta performance e identidade visual.
+                </p>
+</div>
+<!-- Filter Bar -->
+<div class="flex flex-wrap gap-3 mb-12 items-center">
+<button class="px-6 py-2 rounded-md bg-secondary-container text-on-secondary-container font-headline font-bold uppercase tracking-tight text-sm transition-all shadow-md shadow-secondary-container/10">
+                Todos
+            </button>
+<button class="px-6 py-2 rounded-md bg-surface-container-highest text-on-surface-variant hover:text-primary font-headline font-bold uppercase tracking-tight text-sm transition-all">
+                Impressos
+            </button>
+<button class="px-6 py-2 rounded-md bg-surface-container-highest text-on-surface-variant hover:text-primary font-headline font-bold uppercase tracking-tight text-sm transition-all">
+                Brindes
+            </button>
+<button class="px-6 py-2 rounded-md bg-surface-container-highest text-on-surface-variant hover:text-primary font-headline font-bold uppercase tracking-tight text-sm transition-all">
+                Identidade Visual
+            </button>
+</div>
+<!-- Portfolio Bento Grid -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+<!-- Large Feature Card -->
+<div class="md:col-span-8 group relative overflow-hidden bg-surface-container rounded-lg shadow-xl aspect-[16/9]">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-80 group-hover:opacity-100" data-alt="Close-up of premium metallic ink printing on heavy matte black cardstock with dramatic lighting highlighting textures" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCDDTjyjXLnKNwDYlqGRdaQExxRP1jE9wZKrHpN_V-M4SYRAt6n03mOYwiCEZcAkPofpUVNYUVRrP4Cb8Dbx-41vGKZgG3f7Kc-dsejuks-2dtIk2YVIeoV1IpqJ8zlJ2vJu6rq31hkbDq1IynUgtOtsQXNJBVkBdgXWfHMjpHvMNMMc-0EQRG1GDfUmdr80A95e6MDfHRT2MzTncInSnvep6VJHrxy3DbccfseFmYNBsJjUE3xGnM4tefkVleVrMzkqboCqUWBI_P9"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-transparent to-transparent opacity-90"></div>
+<div class="absolute bottom-0 left-0 p-8 w-full">
+<span class="text-secondary-container font-headline font-bold text-xs uppercase tracking-[0.2em] mb-2 block">Identidade Visual</span>
+<h3 class="text-3xl font-headline font-bold text-on-surface tracking-tighter">Branding Luxury Estate</h3>
+<p class="text-on-surface-variant mt-2 max-w-md hidden md:block">Papelaria completa com acabamento em hot-stamping dourado e verniz localizado.</p>
+</div>
+</div>
+<!-- Tall Secondary Card -->
+<div class="md:col-span-4 group relative overflow-hidden bg-surface-container rounded-lg shadow-xl aspect-[4/5] md:aspect-auto">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-70 group-hover:opacity-100" data-alt="Abstract macro shot of vibrant CMYK ink drops mixing on a specialized substrate surface with industrial aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCLjC1VsYD0TFJhQxVbE9AQJSOjJP41EeA9Du5NK2xJSk8eF7LJRrbpwIFl43iWBH1WxYL6EnemS-O74LcOwmaE0d_Z9BOHzGpk7sDZIEQ8t8vwQAg_LxxDf4kfTyXpwLaVas05AWDcOvkmW022-s-RPrHAye9pnrjj-7mH7F23eq9yc-gfeOhGHhd_wqJHXNYlh5V6a-JChY-t_9z0u6Jc7uahNbMRwrfD4HN4LbTcGi7DC4Asaz6w6LCa94KcpEFuvA5wGUAsewUI"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-transparent to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-8">
+<span class="text-secondary-container font-headline font-bold text-xs uppercase tracking-[0.2em] mb-2 block">Impressos</span>
+<h3 class="text-2xl font-headline font-bold text-on-surface tracking-tighter">Revista Tech Annual</h3>
+</div>
+</div>
+<!-- Standard Grid Items -->
+<div class="md:col-span-4 group relative overflow-hidden bg-surface-container rounded-lg shadow-xl aspect-square">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-80" data-alt="Minimalist design of high-end business cards stacked neatly, featuring clean typography and deep orange edges" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBpXu2G4uXS51MmNaRjm5OsEv5wNWoRp7G3fOKeEuhxDsZTLksfpnUQgINfa4Aug4VNGlO54L20cQ8NpKjimXns8VA-uLaq7qcdFFU87vcs4Rnd8eE01CP2CiIxrPnUE66_jnhCEvKe_UeZbSJh5pnmyDct1n0dHhfOADOUSpvKM06IDxxVhcpG3n3yCugTcVm3Ws01c6IN4CyNIEUb9VjkSEDLVSB0MP9Pyibxog4CYaVyuZ1YLbLV2Rj73xOdjh9tvgMb0caBRzFU"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-transparent to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-6">
+<span class="text-secondary-container font-headline font-bold text-xs uppercase tracking-[0.2em] mb-1 block">Identidade Visual</span>
+<h3 class="text-xl font-headline font-bold text-on-surface tracking-tighter">Business Cards Noir</h3>
+</div>
+</div>
+<div class="md:col-span-4 group relative overflow-hidden bg-surface-container rounded-lg shadow-xl aspect-square">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-80" data-alt="Close-up of industrial printing press rollers moving at high speed with yellow and black safety markings" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCFPBq5Bx2ncpZ9DXf35AtYPw8orOgmKneOiMTYnRq2dCSWcU-c0NYOKbkXa1IB5SySVv9EMqkg6naRPlvy_LnPOKhYVXxp_7KXd9683qmCo5jl30GzftFLz_1GnP4j5GyZivJ7E9grMts_iX2tUjgIPQOr8fCe_QUPZ5dhhWAdETiRzeXsGwPbmuBGG6wBJzlFNoyCDAB6skivWMaH7TNrvFTLNtOkM8Y0EzzXipDtMcESW6KyJ1UbRfPekfWAWM6Qc_g11J0LKCDa"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-transparent to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-6">
+<span class="text-secondary-container font-headline font-bold text-xs uppercase tracking-[0.2em] mb-1 block">Brindes</span>
+<h3 class="text-xl font-headline font-bold text-on-surface tracking-tighter">Packaging Experience</h3>
+</div>
+</div>
+<div class="md:col-span-4 group relative overflow-hidden bg-surface-container rounded-lg shadow-xl aspect-square">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-80" data-alt="Stacks of premium posters with bold geometric graphic designs in high contrast orange and charcoal colors" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDXZ8GxpOWF6BxBGVtfJ3BsBIs8vbgnlRUn-__AWDhmR9izlKnKHNpc7mPytt1o1MLGpNzc-PqAcoNa32E2yo5Q3kNRPIF5Ur-jrYjltOR26fwiIIt2K1QFawr1E6eIurgKCPMtaLvX4KPqGNWDcaNTFxd15g28JXM0J9GQqiko5KpvfpAL3c5dTik6KRB2EU0BtAQlRdL60kgc9S0gKJvxWja6rWDZOLyg5emEHJT1wmWm9BP2ZMbVEgckoYTYQEt-BkP8BvyQCVur"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-transparent to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-6">
+<span class="text-secondary-container font-headline font-bold text-xs uppercase tracking-[0.2em] mb-1 block">Impressos</span>
+<h3 class="text-xl font-headline font-bold text-on-surface tracking-tighter">Série Poster Art</h3>
+</div>
+</div>
+</div>
+<!-- CTA Section -->
+<section class="mt-24 p-12 bg-surface-container-low rounded-xl border-l-4 border-primary-container relative overflow-hidden">
+<div class="absolute right-0 top-0 h-full w-1/3 opacity-10 pointer-events-none">
+<span class="material-symbols-outlined text-[15rem] leading-none" style="font-variation-settings: 'FILL' 1;">print</span>
+</div>
+<div class="relative z-10">
+<h2 class="text-4xl font-headline font-bold text-primary mb-4 tracking-tighter">Tem um projeto em mente?</h2>
+<p class="text-on-surface-variant max-w-lg mb-8">Nossa equipe de especialistas está pronta para transformar suas ideias em realidade com a melhor tecnologia de impressão do mercado.</p>
+<button class="ink-gradient text-on-primary-container px-10 py-4 font-black font-headline uppercase tracking-[0.1em] rounded-md hover:brightness-110 transition-all shadow-xl shadow-primary-container/20">
+                    Solicitar Orçamento
+                </button>
+</div>
+</section>
+</header></main>
+<!-- Footer -->
+<footer class="bg-[#0E0E0E] w-full border-t border-[#FFB693]/10">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12 px-12 py-16 w-full max-w-none mx-auto">
+<div>
+<div class="text-[#FF6B00] font-black uppercase text-xl mb-6 font-headline tracking-tighter">
+                    THE KINETIC PRESS
+                </div>
+<p class="text-[#E2BFB0]/60 font-['Manrope'] text-sm tracking-wide leading-relaxed max-w-xs">
+                    Industrial precision printing and creative design solutions. Forging digital ideas into physical reality.
+                </p>
+</div>
+<div class="grid grid-cols-2 gap-8">
+<div class="flex flex-col gap-4">
+<h4 class="text-[#FFB693] font-bold text-xs uppercase tracking-widest mb-2">Empresa</h4>
+<a class="text-[#E2BFB0]/60 hover:text-[#FDD400] transition-colors font-['Manrope'] text-sm" href="#">Portfolio</a>
+<a class="text-[#E2BFB0]/60 hover:text-[#FDD400] transition-colors font-['Manrope'] text-sm" href="#">Serviços</a>
+<a class="text-[#E2BFB0]/60 hover:text-[#FDD400] transition-colors font-['Manrope'] text-sm" href="#">Tecnologia</a>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="text-[#FFB693] font-bold text-xs uppercase tracking-widest mb-2">Suporte</h4>
+<a class="text-[#E2BFB0]/60 hover:text-[#FDD400] transition-colors font-['Manrope'] text-sm" href="#">Privacy Policy</a>
+<a class="text-[#E2BFB0]/60 hover:text-[#FDD400] transition-colors font-['Manrope'] text-sm" href="#">Terms of Service</a>
+<a class="text-[#E2BFB0]/60 hover:text-[#FDD400] transition-colors font-['Manrope'] text-sm" href="#">Shipping Info</a>
+</div>
+</div>
+<div class="flex flex-col gap-6">
+<h4 class="text-[#FFB693] font-bold text-xs uppercase tracking-widest">Newsletter</h4>
+<div class="flex">
+<input class="bg-[#0e0e0e] border-b border-[#FFB693]/30 text-on-surface p-2 w-full focus:outline-none focus:border-primary transition-colors font-body text-sm" placeholder="E-mail" type="email"/>
+<button class="ml-2 text-primary hover:text-secondary-container transition-colors">
+<span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+<div class="text-[#E2BFB0]/60 text-[10px] uppercase tracking-widest mt-8">
+                    © 2024 THE KINETIC PRESS. INDUSTRIAL PRECISION PRINTING.
+                </div>
+</div>
+</div>
+</footer>
+</body></html>

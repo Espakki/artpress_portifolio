@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="ArtPress">
+  <rect width="64" height="64" rx="12" fill="#201F1F"/>
+  <path d="M32 8 L10 56 L18 56 L32 24 L46 56 L54 56 Z" fill="#E5E2E1"/>
+  <rect x="20" y="38" width="24" height="7" fill="#201F1F"/>
+  <circle cx="54" cy="12" r="6" fill="#FF6B00"/>
+</svg>

@@ -1,0 +1,67 @@
+/* ============================================================
+   ArtPress – Tailwind CSS Configuration
+   ============================================================ */
+tailwind.config = {
+    darkMode: "class",
+    theme: {
+        extend: {
+            colors: {
+                "tertiary-container": "#059eff",
+                "outline-variant": "#5a4136",
+                "surface-bright": "#393939",
+                "on-error": "#690005",
+                "secondary": "#fff3d2",
+                "tertiary": "#9ccaff",
+                "on-surface-variant": "#e2bfb0",
+                "surface": "#131313",
+                "primary-fixed-dim": "#ffb693",
+                "primary-fixed": "#ffdbcc",
+                "on-primary-container": "#572000",
+                "on-secondary": "#3a3000",
+                "surface-container-lowest": "#0e0e0e",
+                "on-primary-fixed": "#351000",
+                "surface-container-high": "#2a2a2a",
+                "on-primary-fixed-variant": "#7a3000",
+                "error": "#ffb4ab",
+                "inverse-primary": "#a04100",
+                "tertiary-fixed-dim": "#9ccaff",
+                "secondary-fixed-dim": "#e9c400",
+                "on-background": "#e5e2e1",
+                "on-secondary-fixed": "#221b00",
+                "surface-dim": "#131313",
+                "outline": "#a98a7d",
+                "primary-container": "#ff6b00",
+                "inverse-on-surface": "#313030",
+                "surface-container-highest": "#353534",
+                "surface-container-low": "#1c1b1b",
+                "inverse-surface": "#e5e2e1",
+                "background": "#131313",
+                "on-tertiary": "#003257",
+                "on-primary": "#561f00",
+                "on-error-container": "#ffdad6",
+                "on-secondary-fixed-variant": "#544600",
+                "surface-variant": "#353534",
+                "surface-tint": "#ffb693",
+                "on-secondary-container": "#6f5c00",
+                "secondary-container": "#fdd400",
+                "primary": "#ffb693",
+                "secondary-fixed": "#ffe170",
+                "surface-container": "#201f1f",
+                "on-surface": "#e5e2e1",
+                "error-container": "#93000a",
+                "on-tertiary-fixed-variant": "#00497b",
+                "tertiary-fixed": "#d0e4ff",
+                "on-tertiary-container": "#003357",
+                "on-tertiary-fixed": "#001d35"
+            },
+            fontFamily: {
+                "headline": ["Space Grotesk", "sans-serif"],
+                "body": ["Manrope", "sans-serif"],
+                "label": ["Manrope", "sans-serif"]
+            },
+            borderRadius: {
+                "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"
+            },
+        },
+    },
+};
