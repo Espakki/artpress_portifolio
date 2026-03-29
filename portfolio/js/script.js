@@ -162,10 +162,13 @@ document.addEventListener("DOMContentLoaded", () => {
     if (typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined') {
         gsap.registerPlugin(ScrollTrigger);
 
-        // 1. Reveal Sections
-        const sections = document.querySelectorAll('section');
+        // 1. Reveal Sections (skip hero to avoid first-paint instability on CTA)
+        const sections = document.querySelectorAll('section:not(#hero)');
         sections.forEach(section => {
-            gsap.from(section.querySelector('.container'), {
+            const container = section.querySelector('.container');
+            if (!container) return;
+            
+            gsap.from(container, {
                 scrollTrigger: {
                     trigger: section,
                     start: "top 85%",
@@ -174,12 +177,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 y: 50,
                 opacity: 0,
                 duration: 1.2,
-                ease: "power3.out"
+                ease: "power3.out",
+                immediateRender: false
             });
         });
 
-        // 2. Staggered Cards (Services & Portfolio)
-        const gridContainers = document.querySelectorAll('.grid');
+        // 2. Staggered Cards (Services & Portfolio only)
+        const gridContainers = document.querySelectorAll('#services .grid, #portfolio .grid');
         gridContainers.forEach(grid => {
             const cards = grid.querySelectorAll('.group');
             if (cards.length > 0) {
@@ -192,7 +196,8 @@ document.addEventListener("DOMContentLoaded", () => {
                     opacity: 0,
                     duration: 1,
                     stagger: 0.15,
-                    ease: "power2.out"
+                    ease: "power2.out",
+                    immediateRender: false
                 });
             }
         });
@@ -213,7 +218,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
         // 4. Hero Content Specific Reveal
-        gsap.from("#hero h1, #hero p, #hero .flex.gap-4", {
+        gsap.from("#hero h1, #hero p, #hero-cta", {
             duration: 1.5,
             y: 40,
             opacity: 0,
